@@ -3,15 +3,19 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "components/TransactionItem.jsx",
+    "components/SignOutButton.jsx",
+    "components/SafeScreen.jsx",
+    "components/PageLoader.jsx",
+    "components/NoTransactionsFound.jsx",
+    "components/BalanceCard.jsx"
   ]
 }
